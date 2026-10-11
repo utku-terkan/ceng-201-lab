@@ -5,7 +5,6 @@
  */
 import game.inventory.Item;
 import game.inventory.Inventory;
-
 // Runs the main program for the game shop
 public class GameShop {
 

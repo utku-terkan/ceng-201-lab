@@ -4,7 +4,6 @@
  * Your Date:        10/11/2026
  */
 package game.inventory;
-
 // Manages a collection of game products
 public class Inventory {
 
