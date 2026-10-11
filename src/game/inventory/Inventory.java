@@ -1,4 +1,8 @@
-
+/**
+ * Your Name:        Utku Terkan
+ * Your Student ID:  240446030
+ * Your Date:        10/11/2026
+ */
 package game.inventory;
 
 // Manages a collection of game products
