@@ -1,28 +1,22 @@
 /**
- * Your Name:        Utku Terkan
- * Your Student ID:  240446030
- * Your Date:        10/11/2026
+ * Name Surname: UTKU TERKAN
+ * Student ID:   240446030
+ * Date:         10/11/2026
  */
 package game.inventory;
-
 // Manages a collection of game products
 public class Inventory {
-
     // An array that can hold up to 10 products
     private Item[] items;
-
     // Keeps track of the number of added products
     private int count;
-
     // Initializes the array when an inventory is created
     public Inventory() {
         items = new Item[10];
         count = 0;
     }
-
     // Adds a new product to the inventory
     public void addItem(Item item) {
-
         // Adds the product if there is available space
         if (count < items.length) {
             items[count] = item;
@@ -31,7 +25,6 @@ public class Inventory {
             System.out.println("Inventory is full!");
         }
     }
-
     // Displays all added products
     public void displayAll() {
         System.out.println("--- Inventory Listing ---");
@@ -46,7 +39,6 @@ public class Inventory {
                     items[i].getStockCount());
         }
     }
-
     // Displays serial codes for inventory auditing
     public void auditSerialCodes() {
         System.out.println("--- Serial Code Audit ---");

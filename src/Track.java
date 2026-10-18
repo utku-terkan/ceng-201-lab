@@ -1,13 +1,10 @@
-
 /**
  * Track.java
  * Represents a single music track in a streaming playlist.
- *
- * Your Name:        Utku Terkan
- * Your Student ID:  240446030
- * Your Date:        10/11/2026
+ * Name Surname:UTKU TERKAN
+ * Student ID:  240446030
+ * Date:        10/11/2026
  */
-
 public class Track {
 
     // Instance variables
@@ -15,7 +12,6 @@ public class Track {
     private String artist;
     private int durationSeconds;
     private boolean isExplicit;
-
     // Full constructor
     public Track(String title, String artist, int durationSeconds, boolean isExplicit) {
         this.title = title;
